@@ -4,7 +4,7 @@ organization := "de.lolhens.sbt"
 
 name := "sbt-css-compress"
 
-version := "0.2.0"
+version := "0.2.1-SNAPSHOT"
 
 resolvers ++= Seq(
   Resolver.bintrayIvyRepo("LolHens", "sbt-css-compress")

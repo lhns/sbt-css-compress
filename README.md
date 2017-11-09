@@ -1,8 +1,10 @@
 sbt-css-compress
 ===========
-
+[![Build Status](https://teamcity.lolhens.de/app/rest/builds/buildType:SbtCssCompress_Build/statusIcon.svg)](https://teamcity.lolhens.de/viewType.html?buildTypeId=SbtCssCompress_Build&guest=1)
 
 [sbt-web] plugin which compresses CSS using [yuicompressor].
+
+This is a fork of [ground5hark/sbt-css-compress]
 
 Plugin
 ======
@@ -11,7 +13,7 @@ Add the plugin to your `project/plugins.sbt`:
 addSbtPlugin("de.lolhens.sbt" % "sbt-css-compress" % "0.2.0-SNAPSHOT")
 ```
 
-Add the [Sonatype releases] resolver:
+Add the bintray resolver:
 ```scala
 resolvers += Resolver.bintrayIvyRepo("LolHens", "sbt-css-compress")
 ```
@@ -48,7 +50,7 @@ License
 =======
 This code is licensed under the [MIT License].
 
+[ground5hark/sbt-css-compress]:https://github.com/ground5hark/sbt-css-compress
 [sbt-web]:https://github.com/sbt/sbt-web
 [yuicompressor]:http://yui.github.io/yuicompressor/
 [MIT License]:http://opensource.org/licenses/MIT
-[Sonatype releases]:https://oss.sonatype.org/content/repositories/releases/
