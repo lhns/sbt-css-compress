@@ -15,7 +15,7 @@ addSbtPlugin("de.lolhens.sbt" % "sbt-css-compress" % "0.2.0")
 
 Add the bintray resolver:
 ```scala
-resolvers += Resolver.bintrayIvyRepo("LolHens", "sbt-css-compress")
+resolvers += Resolver.bintrayIvyRepo("lolhens", "sbt-plugins")
 ```
 
 Enable the [sbt-web] plugin for your project:

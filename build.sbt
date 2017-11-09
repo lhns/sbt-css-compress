@@ -6,10 +6,6 @@ name := "sbt-css-compress"
 
 version := "0.2.1-SNAPSHOT"
 
-resolvers ++= Seq(
-  Resolver.bintrayIvyRepo("LolHens", "sbt-css-compress")
-)
-
 addCrossSbtPlugin("com.typesafe.sbt" %% "sbt-web" % "1.4.3")
 
 libraryDependencies += "com.yahoo.platform.yui" % "yuicompressor" % "2.4.8"
