@@ -10,7 +10,7 @@ Plugin
 ======
 Add the plugin to your `project/plugins.sbt`:
 ```scala
-addSbtPlugin("de.lolhens.sbt" % "sbt-css-compress" % "0.2.0-SNAPSHOT")
+addSbtPlugin("de.lolhens.sbt" % "sbt-css-compress" % "0.2.0")
 ```
 
 Add the bintray resolver:
