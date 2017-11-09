@@ -1,6 +1,6 @@
 sbt-css-compress
 ===========
-[![Build Status](https://api.travis-ci.org/ground5hark/sbt-css-compress.png?branch=master)](https://travis-ci.org/ground5hark/sbt-css-compress)
+
 
 [sbt-web] plugin which compresses CSS using [yuicompressor].
 
@@ -8,12 +8,12 @@ Plugin
 ======
 Add the plugin to your `project/plugins.sbt`:
 ```scala
-addSbtPlugin("net.ground5hark.sbt" % "sbt-css-compress" % "0.2.0-SNAPSHOT")
+addSbtPlugin("de.lolhens.sbt" % "sbt-css-compress" % "0.2.0-SNAPSHOT")
 ```
 
 Add the [Sonatype releases] resolver:
 ```scala
-resolvers += Resolver.sonatypeRepo("releases")
+resolvers += Resolver.bintrayIvyRepo("LolHens", "sbt-css-compress")
 ```
 
 Enable the [sbt-web] plugin for your project:
