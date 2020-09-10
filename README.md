@@ -2,7 +2,7 @@ sbt-css-compress
 ===========
 [![Release Notes](https://img.shields.io/github/release/LolHens/sbt-css-compress.svg?maxAge=3600)](https://github.com/LolHens/sbt-css-compress/releases/latest)
 [![Maven Central](https://maven-badges.herokuapp.com/maven-central/de.lolhens/sbt-css-compress/badge.svg)](https://search.maven.org/artifact/de.lolhens/sbt-css-compress)
-[![Apache License 2.0](https://img.shields.io/github/license/LolHens/sbt-css-compress.svg?maxAge=3600)](https://www.apache.org/licenses/LICENSE-2.0)
+[![Apache License 2.0](https://img.shields.io/github/license/LolHens/sbt-css-compress.svg?maxAge=3600)](https://opensource.org/licenses/MIT)
 
 [sbt-web] plugin which compresses CSS using [yuicompressor].
 

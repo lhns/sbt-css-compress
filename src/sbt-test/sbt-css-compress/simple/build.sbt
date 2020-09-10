@@ -2,13 +2,13 @@ import com.typesafe.sbt.web.SbtWeb
 import SbtWeb.autoImport._
 import WebKeys._
 
-organization := "net.ground5hark.sbt"
+organization := "de.lolhens"
 
 name := "sbt-css-compress-test"
 
 version := "0.1.4"
 
-scalaVersion := "2.10.6"
+scalaVersion := "2.13.3"
 
 lazy val root = (project in file(".")).enablePlugins(SbtWeb)
 
