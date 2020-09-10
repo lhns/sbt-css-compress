@@ -1,6 +1,8 @@
 sbt-css-compress
 ===========
-[![Build Status](https://teamcity.lolhens.de/app/rest/builds/buildType:SbtCssCompress_Build/statusIcon.svg)](https://teamcity.lolhens.de/viewType.html?buildTypeId=SbtCssCompress_Build&guest=1)
+[![Release Notes](https://img.shields.io/github/release/LolHens/sbt-css-compress.svg?maxAge=3600)](https://github.com/LolHens/sbt-css-compress/releases/latest)
+[![Maven Central](https://maven-badges.herokuapp.com/maven-central/de.lolhens/sbt-css-compress/badge.svg)](https://search.maven.org/artifact/de.lolhens/sbt-css-compress)
+[![Apache License 2.0](https://img.shields.io/github/license/LolHens/sbt-css-compress.svg?maxAge=3600)](https://www.apache.org/licenses/LICENSE-2.0)
 
 [sbt-web] plugin which compresses CSS using [yuicompressor].
 
@@ -10,12 +12,7 @@ Plugin
 ======
 Add the plugin to your `project/plugins.sbt`:
 ```scala
-addSbtPlugin("de.lolhens.sbt" % "sbt-css-compress" % "0.2.0")
-```
-
-Add the bintray resolver:
-```scala
-resolvers += Resolver.bintrayIvyRepo("lolhens", "sbt-plugins")
+addSbtPlugin("de.lolhens" % "sbt-css-compress" % "0.2.0")
 ```
 
 Enable the [sbt-web] plugin for your project:
