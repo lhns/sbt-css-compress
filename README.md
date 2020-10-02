@@ -6,7 +6,7 @@ sbt-css-compress
 
 [sbt-web] plugin which compresses CSS using [yuicompressor].
 
-This is a fork of [ground5hark/sbt-css-compress]
+This is a fork of [basedRNC/sbt-css-compress]
 
 Plugin
 ======
@@ -47,7 +47,7 @@ License
 =======
 This code is licensed under the [MIT License].
 
-[ground5hark/sbt-css-compress]:https://github.com/ground5hark/sbt-css-compress
+[basedRNC/sbt-css-compress]:https://github.com/basedRNC/sbt-css-compress
 [sbt-web]:https://github.com/sbt/sbt-web
 [yuicompressor]:http://yui.github.io/yuicompressor/
 [MIT License]:http://opensource.org/licenses/MIT
