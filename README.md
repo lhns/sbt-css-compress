@@ -4,9 +4,9 @@
 [![Maven Central](https://maven-badges.herokuapp.com/maven-central/de.lolhens/sbt-css-compress/badge.svg)](https://search.maven.org/artifact/de.lolhens/sbt-css-compress)
 [![Apache License 2.0](https://img.shields.io/github/license/LolHens/sbt-css-compress.svg?maxAge=3600)](https://opensource.org/licenses/MIT)
 
-[sbt-web] plugin which compresses CSS using [yuicompressor].
+This is a fork of [basedRNC/sbt-css-compress].
 
-This is a fork of [basedRNC/sbt-css-compress]
+[sbt-web] plugin which compresses CSS using [yuicompressor].
 
 ## Plugin
 Add the plugin to your `project/plugins.sbt`:
