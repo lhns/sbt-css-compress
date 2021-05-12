@@ -1,8 +1,10 @@
 # sbt-css-compress
+
 [![Test Workflow](https://github.com/LolHens/sbt-css-compress/workflows/test/badge.svg)](https://github.com/LolHens/sbt-css-compress/actions?query=workflow%3Atest)
 [![Release Notes](https://img.shields.io/github/release/LolHens/sbt-css-compress.svg?maxAge=3600)](https://github.com/LolHens/sbt-css-compress/releases/latest)
 [![Maven Central](https://maven-badges.herokuapp.com/maven-central/de.lolhens/sbt-css-compress/badge.svg)](https://search.maven.org/artifact/de.lolhens/sbt-css-compress)
 [![Apache License 2.0](https://img.shields.io/github/license/LolHens/sbt-css-compress.svg?maxAge=3600)](https://opensource.org/licenses/MIT)
+[![Scala Steward badge](https://img.shields.io/badge/Scala_Steward-helping-blue.svg?style=flat&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAQCAMAAAARSr4IAAAAVFBMVEUAAACHjojlOy5NWlrKzcYRKjGFjIbp293YycuLa3pYY2LSqql4f3pCUFTgSjNodYRmcXUsPD/NTTbjRS+2jomhgnzNc223cGvZS0HaSD0XLjbaSjElhIr+AAAAAXRSTlMAQObYZgAAAHlJREFUCNdNyosOwyAIhWHAQS1Vt7a77/3fcxxdmv0xwmckutAR1nkm4ggbyEcg/wWmlGLDAA3oL50xi6fk5ffZ3E2E3QfZDCcCN2YtbEWZt+Drc6u6rlqv7Uk0LdKqqr5rk2UCRXOk0vmQKGfc94nOJyQjouF9H/wCc9gECEYfONoAAAAASUVORK5CYII=)](https://scala-steward.org)
 
 This is a fork of [basedRNC/sbt-css-compress].
 
