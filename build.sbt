@@ -4,7 +4,7 @@ version := "0.0.1-SNAPSHOT"
 
 enablePlugins(SbtPlugin)
 
-addSbtPlugin("com.github.sbt" %% "sbt-web" % "1.5.0")
+addSbtPlugin("com.github.sbt" %% "sbt-web" % "1.5.2")
 
 libraryDependencies += "com.yahoo.platform.yui" % "yuicompressor" % "2.4.8"
 
